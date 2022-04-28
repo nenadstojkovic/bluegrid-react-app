@@ -1,0 +1,14 @@
+.edit { background-image: url('../images/icon-edit.png'); }
+.remove { background-image: url('../images/icon-remove.png'); }
+.save {
+  background-image: url('../images/icon-save.png');
+  background-repeat: no-repeat;
+  width: 140px;
+}
+.add {
+  background-image: url('../images/icon-add.png');
+  background-repeat: no-repeat;
+  width: 170px;
+  position: relative;
+  left: 45%;
+}

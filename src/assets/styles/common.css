@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body { margin: 0; }
+
+#root {
+  min-height: 100vh; 
+  margin: 0; 
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  background-color: unset;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+button:hover { cursor: pointer; }
+button.swal-button,
+button.swal2-styled {
+  height: 36px;
+  min-width: 140px;
+}
+
+input,
+textarea {
+  width: 300px;
+  padding: 4px;
+}
+textarea { font-family: Arial; }
+.short-text {
+  width: 300px;
+  overflow:hidden; 
+  white-space:nowrap; 
+  text-overflow: ellipsis;
+}
